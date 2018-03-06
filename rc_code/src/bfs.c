@@ -115,12 +115,7 @@ void find_shortest_path(int start_rank, int goal_rank, const int obstacles[], in
                 printf("bestCellCol: %d\n", bestCellCol);
 
                 printf("!\n");
-                //works if we go down
-                //works if we go down, to the left, and up
-                //works if we go to the left
-                //works if we go to the left, then down
-
-                //doest work if we have to go up left then down
+               
 
                 if(nCol > goalCol && bestCellCol >= nCol)
                 {
